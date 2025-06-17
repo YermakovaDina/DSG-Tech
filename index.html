@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="car parts, gearbox, car clutch">
+    <title>DSG-Tech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css'>    
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <header class="header">
+            
+            <!--основное-->
+            <a href="./index.html">
+                <img src="images/logo-dsg.svg" alt="logo company" class="logo">
+            </a>
+
+            <!--бургер-->
+            <div class="hamb">
+                <div class="hamb__field" id="hamb">
+                  <span class="bar"></span> <span class="bar"></span>
+                  <span class="bar"></span>
+                </div>
+            </div>
+
+            <!--основное-->
+            <nav>
+                <ul class="menu" id="menu">
+                    <li class="menu-item"><a class="menu-link active" href="#company">компания</a></li>
+                    <!--<li class="menu-item"><a class="menu-link" href="./catalog.html">каталог</a></li>-->
+                    <li class="menu-item"><a class="menu-link" href="#services">услуги</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#information">информация</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#contacts">контакты</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#question">задать вопрос</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Бургер -->
+
+        <div class="popup" id="popup"></div>
+
+        <!-- Контент -->
+        <main>
+            <section id="" class="hero">
+                <div class="container">
+                    <h1 class="title-hero">
+                        профессиональная <br>помощь вашему<br>автомобилю
+                    </h1>
+                    <!-- <button id="catalog" class="button" type="submit">
+                        <a class="hiro-button" href="./catalog.html">перейти в каталог</a>
+                    </button> -->
+                    <button id="question" class="services-button" data-modal-open type="button">
+                        задать вопрос
+                    </button>
+                </div>
+            </section>
+
+            <section id="information" class="information">
+                <div class="info">
+                    <ui class="info-blok">
+                        <li class="info-card">
+                            <div class="inform">
+                                <p>
+                                    <img src="./images/card-1.png" /> <br>
+                                    Техническая помощь и консультация
+                                </p>
+                            </div>
+                        </li>
+                        <li class="info-card">
+                            <div class="inform">
+                                <p>
+                                    <img src="./images/card-2.png" /> <br>
+                                    Мы всегда на связи с 9:00 до 21:00
+                                </p>
+                            </div>                                
+                            </li>
+                        <li class="info-card">
+                            <div class="inform">
+                                <p>
+                                    <img src="./images/card-3.png" /> <br>
+                                    Оригинальные запчасти. Проверенные поставщики.</p>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="info-card">
+                            <div class="inform">
+                                <p>
+                                    <img src="./images/card-4.png" /> <br>
+                                    Наличный и безналичный расчет.
+                                </p>
+                            </div>
+                        </li>
+                    </ui>
+                </div>
+            </section>
+            
+            <section id="services" class="services">
+                <h1 class="services-title">услуги</h1>
+                <div class="rectang"></div>
+                <p class="services-description">Менеджеры компании с радостью ответят на ваши вопросы и помогут с выбором продукции.</p>
+            
+            <div class="services-flex">
+                <div class="services-info">
+                    <ul class="services-cards">
+                        <li class="services-card">
+                            <div class="services-img">
+                                <img class="" src="./images/serv-1.png" width="120px" height="120px" />
+                            </div>
+                            <div class="services-text">
+                                <h2>бесплатная консультация специалиста</h2>
+                                <p>Оперативно поможем с выбором и установкой
+                                    маховика.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="services-card">
+                            <div class="services-img">
+                                <img class="" src="./images/serv-2.png" width="120px" height="120px"  />
+                            </div>
+                            <div class="services-text">
+                                <h2>обмен</h2>
+                                <p>Принеси нам старый и получти новывй или
+                                    восстановленный со скидкой.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="services-card">
+                            <div class="services-img">
+                                <img class="" src="./images/serv-3.png" width="120px" height="120px"  />
+                            </div>
+                            <div  class="services-text">
+                                <h2>бесплатная диагностика<h2>
+                                <p>Приезжайте к нашим партнерам и
+                                    мы бесплатно проведём диагностику
+                                    Вашего авто.
+                                </p>
+                            </div>    
+                        </li>
+                        <li class="services-card">
+                            <button id="question" class="services-button" data-modal-open type="button">задать вопрос</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="services-second">
+                    <div class="services-foto">
+                        <img class="" src="./images/foto.png" />
+                    </div>
+            <!-- <button id="question" class="services-button" data-modal-open type="button">задать вопрос</button> -->                 
+                </div>
+            </div>
+                
+            </section>
+        </main>
+
+        <!-- Подвал -->
+        <footer class="footer">
+            <div class="footer-sections">
+                <a href="./index.html">
+                    <img src="images/logo-dsg.svg" alt="logo company" class="logo" >
+                </a>
+                <div class="footer-address">
+                <address id="contacts" class="footer-contacts">
+                    <ul class="contacts-list">
+                        <li class="contact-list">
+                            <a href="tel:+79017257125">
+                                +7(901)7257125
+                            </a>
+                        </li>
+                        <li class="contact-list">
+                            <a href="mailto:dsg-tech@yandex.ru">
+                                dsg-tech@yandex.ru
+                            </a>
+                        </li>
+                        <li class="contact-list">
+                            <a href="https://yandex.ru/maps/-/CHq7448m" target="_blank" rel="noreferrer noopener">
+                                г. Москва, Волгоградский просп., 32, корп. 8
+                            </a>
+                        </li> 
+                    </ul>
+                </address>
+                </div>
+                <div class="footer-navigation">
+                <h2 class="footer-title">присоединяйтесь</h2>
+                <ul class="social-icons">
+                    <li class="social-icons-item">
+                        <a href="https://t.me/dsg_tech/" class="" width="20px" target="_blank" rel="noreferrer noopener">
+                            <img src="./images/instagram.png" />
+                        </a>
+                    </li>
+                    <li class="social-icons-item">
+                        <a href="https://vk.com/dsg_tech/" class="" width="20px" target="_blank" rel="noreferrer noopener">
+                            <img src="./images/vk.png" />
+                        </a>
+                    </li>
+                </ul>
+                </div>
+                <div class="footer-email subscribe">
+                    <h2 class="footer-title">подпишитесь на рассылку</h2>
+                    <form class="footer-form">
+                        <div class="form-label footer__form-label">
+                            <input class="form-label__input" type="text" name="name-user" id="name-user" placeholder="E-mail" />
+                        </div>
+                        <button class="button form-button" type="submit">
+                            <span class="button-title">Подписаться</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+ <!-- Модалка  -->
+ <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="modal__button-close" data-modal-close>
+            <img src="./images/close.png" width="15" height="15" />
+        </button>
+        <form class="form modal-form js-modal-form">
+            <h2 class="form__title">задать вопрос</h3>
+
+            <div class="form__field">
+                <label class="form__label modal__label" for="name">Имя</label>
+                <div class="form__style-field">
+                    <input class="modal-form__input" type="text" name="name" id="name" />
+                </div>
+            </div>
+
+            <div class="form__field">
+                <label class="form__label modal__label" for="tel">Телефон</label>
+                <div class="form__style-field">
+                     <input class="modal-form__input" type="tel" name="tel" id="tel" />
+                </div>
+            </div>
+
+            <div class="form__field">
+                <label class="form__label modal__label" for="email">Почта</label>
+                <div class="form__style-field">
+                    <input class="modal-form__input" type="email" name="email" id="email" />
+                </div>
+            </div>
+
+            <div class="form__field form__field--second">
+                <label class="form__label modal__label" for="comment">Комментарий</label>
+                <textarea class="form__comment" name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+            </div>
+                                
+            <div class="form__option modal__option">
+                <label class="form__check" for="agreement">
+                    <input class="modal-form__input-check checkbox" type="checkbox" name="agreement" value="agreement" id="agreement" />
+                    <span class="icon-checkbox"></span>
+                    <span>Соглашаюсь с рассылкой и принимаю <a class="modal-form__form-link" href="" target="_blank" rel="noreferrer noopener">Условия договора</a></span>
+                </label>
+            </div>
+            <div class="form-button">
+                <button class="button button--modal title-button--modal" type="submit">Отправить</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="./js/hamb.js"></script>
+<script src="./js/modal.js"></script>
+</body>
+</html>
